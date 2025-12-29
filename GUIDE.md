@@ -5,6 +5,7 @@ Welcome to your comprehensive Go programming tutorial! This guide will take you 
 ## 📚 How to Use This Guide
 
 Each file is numbered and focuses on a specific concept. Work through them in order for the best learning experience. Each file contains:
+
 - Detailed explanations
 - Runnable code examples
 - Comments explaining key concepts
@@ -13,7 +14,8 @@ Each file is numbered and focuses on a specific concept. Work through them in or
 ## 🎯 Learning Path
 
 ### **Beginner Level** (Files 01-10)
-*Foundation concepts - Start here if you're new to Go*
+
+#### Foundation concepts - Start here if you're new to Go
 
 | File | Topic | Key Concepts |
 |------|-------|--------------|
@@ -33,7 +35,8 @@ Each file is numbered and focuses on a specific concept. Work through them in or
 ---
 
 ### **Intermediate Level** (Files 11-20)
-*Object-oriented concepts and concurrency - Build on your foundation*
+
+#### Object-oriented concepts and concurrency - Build on your foundation
 
 | File | Topic | Key Concepts |
 |------|-------|--------------|
@@ -53,7 +56,8 @@ Each file is numbered and focuses on a specific concept. Work through them in or
 ---
 
 ### **Advanced Level** (Files 21-30)
-*Production-ready patterns and advanced features*
+
+#### Production-ready patterns and advanced features
 
 | File | Topic | Key Concepts |
 |------|-------|--------------|
@@ -75,6 +79,7 @@ Each file is numbered and focuses on a specific concept. Work through them in or
 ## 🚀 Quick Start
 
 1. **Run any file:**
+
    ```bash
    go run 01_hello_world.go
    ```
@@ -90,16 +95,19 @@ Each file is numbered and focuses on a specific concept. Work through them in or
 ## 📖 Recommended Learning Path
 
 ### Week 1: Beginner Fundamentals
+
 - **Day 1-2:** Files 01-05 (Basics, variables, control flow)
 - **Day 3-4:** Files 06-08 (Functions, arrays, maps)
 - **Day 5-7:** Files 09-10 (Structs, pointers) + Practice exercises
 
 ### Week 2: Intermediate Concepts
+
 - **Day 1-2:** Files 11-13 (Methods, interfaces, errors)
 - **Day 3-4:** Files 14-17 (Packages, concurrency basics)
 - **Day 5-7:** Files 18-20 (Defer, file I/O, JSON) + Build a small project
 
 ### Week 3-4: Advanced Topics
+
 - **Days 1-3:** Files 21-24 (Advanced concurrency, context, generics, reflection)
 - **Days 4-7:** Files 25-27 (Testing, HTTP servers)
 - **Days 8-10:** Files 28-30 (Middleware, databases, best practices)
@@ -112,16 +120,19 @@ Each file is numbered and focuses on a specific concept. Work through them in or
 After completing each level, build a project to reinforce your learning:
 
 ### Beginner Projects
+
 - **Calculator CLI** - Use functions, control flow
 - **Todo List** - Use slices, structs, file I/O
 - **Contact Manager** - Use maps, structs, JSON
 
 ### Intermediate Projects
+
 - **Concurrent Web Scraper** - Use goroutines, channels
 - **REST API** - Use HTTP server, JSON, error handling
 - **Chat Server** - Use concurrency, channels, networking
 
 ### Advanced Projects
+
 - **URL Shortener** - Use HTTP, database, middleware
 - **Task Queue System** - Use advanced concurrency patterns
 - **Microservice** - Use all concepts together
@@ -147,11 +158,11 @@ go install golang.org/x/lint/golint@latest
 
 ## 📚 Additional Resources
 
-- **Official Documentation:** https://go.dev/doc/
-- **Effective Go:** https://go.dev/doc/effective_go
-- **Go by Example:** https://gobyexample.com/
-- **Go Playground:** https://go.dev/play/
-- **Standard Library:** https://pkg.go.dev/std
+- **Official Documentation:** <https://go.dev/doc/>
+- **Effective Go:** <https://go.dev/doc/effective_go>
+- **Go by Example:** <https://gobyexample.com/>
+- **Go Playground:** <https://go.dev/play/>
+- **Standard Library:** <https://pkg.go.dev/std>
 
 ---
 

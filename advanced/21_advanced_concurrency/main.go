@@ -103,9 +103,12 @@ func rateLimiter() {
 
 	// Rate limiter: 1 request per 200ms
 	limiter := time.Tick(200 * time.Millisecond)
+	ticker := time.NewTicker(200 * time.Millisecond)
+	defer ticker.Stop()
 
 	for req := range requests {
 		<-limiter // Wait for limiter
+		<-ticker.C // Wait for limiter
 		fmt.Println("Request", req, time.Now())
 	}
 }
